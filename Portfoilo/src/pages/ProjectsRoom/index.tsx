@@ -17,7 +17,7 @@ const PROJECT_ITEMS: ProjectItem[] = [
       '이론상 계발은 가능하지만 실전 성능은 보다 상위의 기술을 필요로 느 낌',
     ],
     emoji: '🎨',
-    url: '',
+    url: 'https://github.com/uijung4/intercropping_data',
   },
   // {
   //   id: 2,
@@ -43,7 +43,7 @@ const PROJECT_ITEMS: ProjectItem[] = [
         'AI 모델은 데이터가 전부이며 비루한 데이터의 한계를 느낀 프로젝트'
     ],
     emoji: '🐶',
-    url: '',
+    url: 'https://github.com/2025-AISCHOOL-AIServiceDevelop/dogfootcatfoot',
   },
   {
     id: 3,
