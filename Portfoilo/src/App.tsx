@@ -9,12 +9,13 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<MainRoom />} />
           <Route path="/projects" element={<ProjectsRoom />} />
           <Route path="/projects/dalmuti" element={<DalmutiPage />} />
           <Route path="/books" element={<BooksRoom />} />
+          <Route path="/books/:techId/:sectionSlug" element={<BooksRoom />} />
           <Route path="/contact" element={<ContactRoom />} />
         </Routes>
       </BrowserRouter>
